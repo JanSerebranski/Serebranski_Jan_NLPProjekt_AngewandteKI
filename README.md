@@ -1,0 +1,2 @@
+# Serebranski_Jan_NLPProjekt_AngewandteKI
+Aufgabenstellung 1: Sentimentanalyse von Produktrezensionen
