@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-07-30T17:15:15.011524",
+  "baseline_results": {
+    "timestamp": "2025-07-30T17:09:29.342715",
+    "model_type": "Multinomial Naive Bayes",
+    "vectorizer": "TF-IDF",
+    "categories": [
+      "Automotive",
+      "Books",
+      "Video_Games"
+    ],
+    "overall_accuracy": 0.7151790453938767,
+    "category_results": {
+      "Automotive": {
+        "valid_accuracy": 0.7407444577140391,
+        "test_accuracy": 0.7418182912999408,
+        "classification_report": {
+          "1": {
+            "precision": 0.6507269224032229,
+            "recall": 0.4820293239911769,
+            "f1-score": 0.5538163387000596,
+            "support": 7707.0
+          },
+          "2": {
+            "precision": 0.35714285714285715,
+            "recall": 0.002654632333421821,
+            "f1-score": 0.005270092226613966,
+            "support": 3767.0
+          },
+          "3": {
+            "precision": 0.3607540702656384,
+            "recall": 0.0676522577534951,
+            "f1-score": 0.11393775372124493,
+            "support": 6223.0
+          },
+          "4": {
+            "precision": 0.4613745338305807,
+            "recall": 0.07102435823833347,
+            "f1-score": 0.12309879175550817,
+            "support": 12193.0
+          },
+          "5": {
+            "precision": 0.7583478241729216,
+            "recall": 0.9878428167964102,
+            "f1-score": 0.8580145067397192,
+            "support": 69753.0
+          },
+          "accuracy": 0.7418182912999408,
+          "macro avg": {
+            "precision": 0.5176692415630442,
+            "recall": 0.3222406778225675,
+            "f1-score": 0.3308274966286292,
+            "support": 99643.0
+          },
+          "weighted avg": {
+            "precision": 0.6736856335478852,
+            "recall": 0.7418182912999408,
+            "f1-score": 0.6658488710464043,
+            "support": 99643.0
+          }
+        }
+      },
+      "Books": {
+        "valid_accuracy": 0.7044310776942356,
+        "test_accuracy": 0.705453634085213,
+        "classification_report": {
+          "1": {
+            "precision": 0.640625,
+            "recall": 0.18163024217365623,
+            "f1-score": 0.2830188679245283,
+            "support": 3386.0
+          },
+          "2": {
+            "precision": 0.45147679324894513,
+            "recall": 0.029955207166853303,
+            "f1-score": 0.056182725124704645,
+            "support": 3572.0
+          },
+          "3": {
+            "precision": 0.45219123505976094,
+            "recall": 0.14383474844759853,
+            "f1-score": 0.21824824536102297,
+            "support": 7891.0
+          },
+          "4": {
+            "precision": 0.40816326530612246,
+            "recall": 0.19641281975889444,
+            "f1-score": 0.2652056534857869,
+            "support": 17005.0
+          },
+          "5": {
+            "precision": 0.7417709993170953,
+            "recall": 0.9598798161894663,
+            "f1-score": 0.8368473766660675,
+            "support": 67896.0
+          },
+          "accuracy": 0.705453634085213,
+          "macro avg": {
+            "precision": 0.5388454585863848,
+            "recall": 0.30234256674729376,
+            "f1-score": 0.331900573712422,
+            "support": 99750.0
+          },
+          "weighted avg": {
+            "precision": 0.6481621302005607,
+            "recall": 0.705453634085213,
+            "f1-score": 0.6437052141225749,
+            "support": 99750.0
+          }
+        }
+      },
+      "Video_Games": {
+        "valid_accuracy": 0.698516338359233,
+        "test_accuracy": 0.6982652107964762,
+        "classification_report": {
+          "1": {
+            "precision": 0.6301546391752577,
+            "recall": 0.575601926163724,
+            "f1-score": 0.601644203344332,
+            "support": 9345.0
+          },
+          "2": {
+            "precision": 0.35428571428571426,
+            "recall": 0.025451559934318555,
+            "f1-score": 0.04749138261202605,
+            "support": 4872.0
+          },
+          "3": {
+            "precision": 0.3382229673093043,
+            "recall": 0.10462854920264489,
+            "f1-score": 0.15981780374294485,
+            "support": 7713.0
+          },
+          "4": {
+            "precision": 0.37310979618671924,
+            "recall": 0.16339163607572157,
+            "f1-score": 0.2272613505531361,
+            "support": 13893.0
+          },
+          "5": {
+            "precision": 0.7413224648701259,
+            "recall": 0.9561417273412001,
+            "f1-score": 0.8351390801998314,
+            "support": 63728.0
+          },
+          "accuracy": 0.6982652107964762,
+          "macro avg": {
+            "precision": 0.4874191163654243,
+            "recall": 0.36504307974352185,
+            "f1-score": 0.374270764090454,
+            "support": 99551.0
+          },
+          "weighted avg": {
+            "precision": 0.6293276942433016,
+            "recall": 0.6982652107964762,
+            "f1-score": 0.6375174841319272,
+            "support": 99551.0
+          }
+        }
+      }
+    }
+  },
+  "evaluation_summary": {
+    "overall_accuracy": 0.7151790453938767,
+    "categories": [
+      "Automotive",
+      "Books",
+      "Video_Games"
+    ],
+    "project_goals_met": true,
+    "best_category": "Automotive",
+    "worst_category": "Video_Games"
+  }
+}

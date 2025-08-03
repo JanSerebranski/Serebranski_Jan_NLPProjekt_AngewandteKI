@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-07-31T13:18:52.153255",
+  "optimization_method": "Optuna TPE",
+  "n_trials_per_category": 20,
+  "categories": [
+    "Automotive",
+    "Books",
+    "Video_Games"
+  ],
+  "best_parameters": {
+    "Automotive": {
+      "best_accuracy": 0.0,
+      "best_params": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      },
+      "n_trials": 3
+    },
+    "Books": {
+      "best_accuracy": 0.0,
+      "best_params": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      },
+      "n_trials": 10
+    },
+    "Video_Games": {
+      "best_accuracy": 0.0,
+      "best_params": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      },
+      "n_trials": 10
+    }
+  }
+}

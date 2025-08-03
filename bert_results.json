@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-08-01T06:05:15.720218",
+  "model_type": "DistilBERT",
+  "vectorizer": "BERT Tokenizer",
+  "categories": [
+    "Automotive",
+    "Books",
+    "Video_Games"
+  ],
+  "overall_accuracy": 0.7515836762748643,
+  "category_results": {
+    "Automotive": {
+      "valid_accuracy": 0.7727618179054567,
+      "test_accuracy": 0.7718498252013984,
+      "classification_report": {
+        "1": {
+          "precision": 0.5949554896142433,
+          "recall": 0.787819253438114,
+          "f1-score": 0.6779374471682164,
+          "support": 509.0
+        },
+        "2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 235.0
+        },
+        "3": {
+          "precision": 0.33666666666666667,
+          "recall": 0.25699745547073793,
+          "f1-score": 0.29148629148629146,
+          "support": 393.0
+        },
+        "4": {
+          "precision": 0.38095238095238093,
+          "recall": 0.1837968561064087,
+          "f1-score": 0.24796084828711257,
+          "support": 827.0
+        },
+        "5": {
+          "precision": 0.8497887053399923,
+          "recall": 0.9586132177681473,
+          "f1-score": 0.9009265858873842,
+          "support": 4615.0
+        },
+        "accuracy": 0.7718498252013984,
+        "macro avg": {
+          "precision": 0.43247264851465667,
+          "recall": 0.43744535655668165,
+          "f1-score": 0.42366223456580093,
+          "support": 6579.0
+        },
+        "weighted avg": {
+          "precision": 0.7101329743738157,
+          "recall": 0.7718498252013984,
+          "f1-score": 0.7330086773926819,
+          "support": 6579.0
+        }
+      },
+      "training_history": {
+        "train_losses": [
+          0.7030419099155933
+        ],
+        "valid_losses": [
+          0.6248262611616935
+        ],
+        "train_accuracies": [
+          0.7478683799687763
+        ],
+        "valid_accuracies": [
+          0.7727618179054567
+        ]
+      },
+      "hyperparameters": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      }
+    },
+    "Books": {
+      "valid_accuracy": 0.7463951241266538,
+      "test_accuracy": 0.74119221049502,
+      "classification_report": {
+        "1": {
+          "precision": 0.45226130653266333,
+          "recall": 0.44554455445544555,
+          "f1-score": 0.4488778054862843,
+          "support": 202.0
+        },
+        "2": {
+          "precision": 0.37272727272727274,
+          "recall": 0.1607843137254902,
+          "f1-score": 0.22465753424657534,
+          "support": 255.0
+        },
+        "3": {
+          "precision": 0.3973634651600753,
+          "recall": 0.41050583657587547,
+          "f1-score": 0.40382775119617226,
+          "support": 514.0
+        },
+        "4": {
+          "precision": 0.4718196457326892,
+          "recall": 0.2602131438721137,
+          "f1-score": 0.3354321694333143,
+          "support": 1126.0
+        },
+        "5": {
+          "precision": 0.8262438283327004,
+          "recall": 0.9397408207343413,
+          "f1-score": 0.8793451899757477,
+          "support": 4630.0
+        },
+        "accuracy": 0.74119221049502,
+        "macro avg": {
+          "precision": 0.5040831036970802,
+          "recall": 0.44335773387265326,
+          "f1-score": 0.45842809006761875,
+          "support": 6727.0
+        },
+        "weighted avg": {
+          "precision": 0.7057269073632737,
+          "recall": 0.74119221049502,
+          "f1-score": 0.7142252570871953,
+          "support": 6727.0
+        }
+      },
+      "training_history": {
+        "train_losses": [
+          0.7451104511576745
+        ],
+        "valid_losses": [
+          0.6412094185576197
+        ],
+        "train_accuracies": [
+          0.7147413715283002
+        ],
+        "valid_accuracies": [
+          0.7463951241266538
+        ]
+      },
+      "hyperparameters": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      }
+    },
+    "Video_Games": {
+      "valid_accuracy": 0.7455930684194801,
+      "test_accuracy": 0.7417089931281745,
+      "classification_report": {
+        "1": {
+          "precision": 0.6411609498680739,
+          "recall": 0.7776,
+          "f1-score": 0.702819956616052,
+          "support": 625.0
+        },
+        "2": {
+          "precision": 0.24528301886792453,
+          "recall": 0.08201892744479496,
+          "f1-score": 0.12293144208037825,
+          "support": 317.0
+        },
+        "3": {
+          "precision": 0.37781954887218044,
+          "recall": 0.37570093457943926,
+          "f1-score": 0.3767572633552015,
+          "support": 535.0
+        },
+        "4": {
+          "precision": 0.44976076555023925,
+          "recall": 0.2,
+          "f1-score": 0.2768777614138439,
+          "support": 940.0
+        },
+        "5": {
+          "precision": 0.8327868852459016,
+          "recall": 0.9501987374327799,
+          "f1-score": 0.8876269520585345,
+          "support": 4277.0
+        },
+        "accuracy": 0.7417089931281745,
+        "macro avg": {
+          "precision": 0.509362233680864,
+          "recall": 0.4771037198914028,
+          "f1-score": 0.47340267510480205,
+          "support": 6694.0
+        },
+        "weighted avg": {
+          "precision": 0.6969253655675591,
+          "recall": 0.7417089931281745,
+          "f1-score": 0.7075653489099059,
+          "support": 6694.0
+        }
+      },
+      "training_history": {
+        "train_losses": [
+          0.7626161522691256
+        ],
+        "valid_losses": [
+          0.6702253056580464
+        ],
+        "train_accuracies": [
+          0.7149346961953436
+        ],
+        "valid_accuracies": [
+          0.7455930684194801
+        ]
+      },
+      "hyperparameters": {
+        "learning_rate": 4.3284502212938785e-05,
+        "batch_size": 2,
+        "epochs": 1,
+        "max_length": 256,
+        "weight_method": "balanced"
+      }
+    }
+  }
+}
